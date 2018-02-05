@@ -1,0 +1,62 @@
+.menusection-Configuration
+	{
+	color: #FFFFFF;
+	letter-spacing: 2pt;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 15px;
+	}
+
+
+.menusection-Configuration
+	{
+		border-top: 1px solid #04354A;
+	background-color: #0899cc;
+	border-bottom: 1px solid #04354A;
+	}
+
+
+.menusection-Info
+	{
+	color: #FFFFFF;
+	letter-spacing: 2pt;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 15px;
+	}
+
+
+.menusection-Info
+	{
+	background-color: #08597B;
+	border-bottom: 1px solid #04354A;
+	}
+
+.menusection-Development
+	{
+	color: #FFFFFF;
+	letter-spacing: 2pt;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 15px;
+	}
+
+
+.menusection-Development
+	{
+	background-color: #08597B;
+	border-bottom: 1px solid #04354A;
+	}
+.menusection-Plugins
+	{
+	color: #FFFFFF;
+	letter-spacing: 2pt;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 15px;
+	}
+.menusection-Plugins
+	{
+	background-color: #08597B;
+	border-bottom: 1px solid #04354A;
+	}

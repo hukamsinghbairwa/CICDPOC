@@ -1,0 +1,11 @@
+productId=WmPipelineCapture
+productVersion=any
+serialNumber=624b0115-e5ed-4c27-b9da-8130537f6bca
+customerName=Software AG
+customerOrganization=GCS
+features=all
+expiryDate=12/31/2018
+numberOfCopies=99
+licenseVersion=1
+licenseKey=MCwCFDfgrF3y8ys2CNiIteWIcIHv/iTaAhQg3MTE5rkObV5DIcU7K7vyfsJ2og==
+comments=This license is for to exclusive use of the employees of Software AG. All other users are strictly prohibited. The license key or any of the product components are not to be distributed to any other entity or third-party.

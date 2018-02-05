@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<pipelineCaptureConfig captureInput="true" captureOutput="true" captureOnError="true" pipelineFolder="pipeline" perServiceFolder="false" inputFilenamePrefix="pipein" skipFoldernames="false" outputFilenamePrefix="pipeout" errorFilenamePrefix="pipeerr" filenameSuffix=".xml" datePattern="yyMMddHHmmddssSSS"/>

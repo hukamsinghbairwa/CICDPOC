@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">readFileContent</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoJU3RyaW5nCWZpbGVMb2NhdGlvbiA9IElEYXRhVXRpbC5nZXRTdHJpbmcoIHBpcGVs
+aW5lQ3Vyc29yLCAiZmlsZUxvY2F0aW9uIiApOw0KCVN0cmluZyBmaWxlQ29udGVudCA9IG51bGw7
+DQp0cnkgew0KCSBmaWxlQ29udGVudCA9IEZpbGVVdGlscy5yZWFkRmlsZVRvU3RyaW5nKG5ldyBG
+aWxlKGZpbGVMb2NhdGlvbikpOw0KfSBjYXRjaCAoSU9FeGNlcHRpb24gZSkgew0KCS8vIFRPRE8g
+QXV0by1nZW5lcmF0ZWQgY2F0Y2ggYmxvY2sNCgllLnByaW50U3RhY2tUcmFjZSgpOw0KfQ0KLy8g
+cGlwZWxpbmUNCg0KSURhdGFVdGlsLnB1dCggcGlwZWxpbmVDdXJzb3IsICJmaWxlQ29udGVudCIs
+IGZpbGVDb250ZW50ICk7DQpwaXBlbGluZUN1cnNvci5kZXN0cm95KCk7DQoJ</value>
+</Values>

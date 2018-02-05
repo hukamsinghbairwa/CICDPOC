@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<interceptorconfig>
+  <intercept>
+                <services>NICServiceProviderOnboarding.Onboarding_PrePayment_Process.Onboarding_PrePayment_Process_1.Default:Receive_New_Onboarding_Request,</services>
+                 <from>2017/04/10 16:00</from>
+                 <to>2017/04/10 19:00</to>
+                  <active>false</active>
+  </intercept>
+</interceptorconfig>

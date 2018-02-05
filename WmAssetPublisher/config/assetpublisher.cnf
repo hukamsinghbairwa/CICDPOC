@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="is_hostname">MCHUBA01.eur.ad.sag</value>
+    <value name="is_identifier">16552f36-4b0f-4805-b308-d4a1a08c3e73</value>
+    <value name="library_username"></value>
+    <value name="library_url"></value>
+  </record>
+</IDataXMLCoder>

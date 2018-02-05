@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="My Demo" name="MyDemoTest">
+    <webMethodsTestCase name="AddNumberswithSuccessResult">
+        <service folder="MedTestSuiteDemo.service" name="addNumbers">
+            <input>
+                <file filename="resources/test/data/AddnumberwithSuccessResultInput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/AddnumberwithSuccessResultOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

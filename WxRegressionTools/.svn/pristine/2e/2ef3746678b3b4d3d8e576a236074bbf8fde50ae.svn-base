@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+
+<title>webMethods Regression Pack</title>
+<script>
+	var state;
+	function changeRecordStatus(rec){
+		
+		if(rec=="false")
+			 state="start";
+		else	
+			 state="stop";
+		 
+		window.location.href='recordStatus.dsp?state='+ state;
+
+	}
+	
+	function changeMockStatus(rec){
+		
+		if(rec=="false")
+			 state="start";
+		else	
+			 state="stop";
+		window.location.href='mockStatus.dsp?state='+ this.state;
+
+	}
+	function syncAllConfigs(){
+		window.location.href='syncConfig.dsp';
+
+	}
+	
+</script>
+%include htmlHeadDefaults.dsp%
+</HEAD>
+
+%invoke wx.regression.schdulers.interceptors:manageInterceptors%
+%invoke wx.regression.schdulers.mocks:manageMocks%
+%invoke wx.regression.schdulers.interceptors:bulkUpload%
+%invoke wx.regression.record:getInterceptorStats%
+%invoke wx.regression.mock:getMockStats%
+%invoke wx.regression.record:getBulkInterceptorStats%
+
+
+<table width=100% cellspacing=0 cellpadding=0>
+	<tr>
+		<td class="menusection-Server">
+				Regression Pack is configured with the following configurations
+		</td>
+	</tr>
+</table>
+
+      <table cellspacing=0 cellpadding=0 height="200px" align="center">
+	     
+		
+			<tr><TD class="evenrow">Registered services: </TD>
+				
+				<TD class="evenrow-1">%value noOfInterceptors%</td></tr>
+				<tr><TD class="evenrow">Bulk Interceptors Registered: </TD>
+				
+				<TD class="evenrow-1">%value size%</td></tr>
+			<tr><TD class="evenrow">Recording Mode is set to: </TD>
+				
+				<TD class="evenrow-1">%value recordModeEnabled%</td>
+				
+				<td><input type="button" id=%value recordModeEnabled% value="Change Status" onclick="changeRecordStatus(this.id)"></td>
+				</tr>
+			<tr><TD class="evenrow">Registered Mocks: </TD>
+				
+				<TD class="evenrow-1">%value noOfMocks%</td></tr>
+				
+			<tr><TD class="evenrow">Mocking Mode is set to: </TD>
+				
+				<TD class="evenrow-1">%value mockModeEnabled%</td>
+				<td><input type="button" id=%value mockModeEnabled% value="Change Status" onclick="changeMockStatus(this.id)"></td>
+				</tr>
+				
+				<tr><TD class="evenrow">Enable all configurations immediately: </TD>
+				<TD class="evenrow-1"></TD>
+				<TD><input type="button" value="Synchronize" onclick="syncAllConfigs()"></TD>
+				</tr>
+			</table>
+
+
+</HTML>
+
