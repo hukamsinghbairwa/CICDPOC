@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Values version="2.0">
+<Values version="3.0">
   <value name="enabled">yes</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
