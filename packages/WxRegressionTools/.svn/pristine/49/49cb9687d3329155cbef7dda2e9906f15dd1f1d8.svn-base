@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">wx.regression.common</value>
+  <value name="is_public">false</value>
+  <value name="shared">IHN0YXRpYyBBcnJheUxpc3QgZ2V0Tm9kZUxpc3QoU3RyaW5nIHBhY2thZ2VOYW1lLCBTdHJpbmcg
+Zm9sZGVyTmFtZSwgU3RyaW5nIGFsaWFzKQogIHsKICAgIEFycmF5TGlzdCBvdXRwdXRBcnJheSA9
+IG5ldyBBcnJheUxpc3QoKTsKICAgIAogICAgSURhdGEgb3V0cHV0ID0gSURhdGFGYWN0b3J5LmNy
+ZWF0ZSgpOwogICAgdHJ5IHsKICAgICAgVmFsdWVzIGlucHV0ID0gbmV3IFZhbHVlcygpOwogICAg
+ICBpbnB1dC5wdXQoImludGVyZmFjZSIsIGZvbGRlck5hbWUpOwogICAgICBpbnB1dC5wdXQoInBh
+Y2thZ2UiLCBwYWNrYWdlTmFtZSk7CgogICAgICBpZiAoKGFsaWFzID09IG51bGwpIHx8IChhbGlh
+cy5lcXVhbHMoIkFuX0FsaWFzX2Zvcl9EZXNpZ25fU2VydmVyIikpKSB7CiAgICAgICAgb3V0cHV0
+ID0gU2VydmljZS5kb0ludm9rZSgid20uc2VydmVyLm5zIiwgImdldE5vZGVMaXN0IiwgaW5wdXQp
+OwogICAgICB9CiAgICAgIGVsc2UKICAgICAgewogICAgICAgIGlucHV0LnB1dCgiJGFsaWFzIiwg
+YWxpYXMpOwogICAgICAgIGlucHV0LnB1dCgiJHNlcnZpY2UiLCAid20uc2VydmVyLm5zOmdldE5v
+ZGVMaXN0Iik7CiAgICAgICAgaW5wdXQucHV0KCIkc2NvcGUiLCAiU0VTU0lPTiIpOwoKICAgICAg
+ICBvdXRwdXQgPSBTZXJ2aWNlLmRvSW52b2tlKCJwdWIucmVtb3RlIiwgImludm9rZSIsIGlucHV0
+KTsKICAgICAgfQogICAgfQogICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkKICAgIHsKICAgICAgCiAg
+ICB9CgogICAgSURhdGFDdXJzb3Igb3V0cHV0Q3Vyc29yID0gb3V0cHV0LmdldEN1cnNvcigpOwog
+ICAgSURhdGFbXSBub2RlcyA9IElEYXRhVXRpbC5nZXRJRGF0YUFycmF5KG91dHB1dEN1cnNvciwg
+Im5vZGVMaXN0Iik7CiAgICBpZiAobm9kZXMgIT0gbnVsbCkgewogICAgICBmb3IgKGludCBpID0g
+MDsgaSA8IG5vZGVzLmxlbmd0aDsgaSsrKQogICAgICB7CiAgICAgICAgSURhdGFDdXJzb3Igbm9k
+ZUN1cnNvciA9IG5vZGVzW2ldLmdldEN1cnNvcigpOwogICAgICAgIFN0cmluZyBub2RlTmFtZSA9
+IElEYXRhVXRpbC5nZXRTdHJpbmcobm9kZUN1cnNvciwgIm5vZGVfbnNOYW1lIik7CiAgICAgICBT
+dHJpbmcgbm9kZVR5cGUgPSBJRGF0YVV0aWwuZ2V0U3RyaW5nKG5vZGVDdXJzb3IsICJub2RlX3R5
+cGUiKTsKICAgICAgICBpZiAobm9kZVR5cGUuZXF1YWxzKCJpbnRlcmZhY2UiKSkKICAgICAgICB7
+CiAgICAgICAgCW91dHB1dEFycmF5LmFkZEFsbChnZXROb2RlTGlzdChwYWNrYWdlTmFtZSwgbm9k
+ZU5hbWUsIGFsaWFzKSk7CiAgICAgICAgCiAgICAgICAgfQogICAgICAgIGVsc2UKICAgICAgICB7
+CiAgICAgICAgICBvdXRwdXRBcnJheS5hZGQobm9kZXNbaV0pOwogICAgICAgIH0KICAgICAgfQog
+ICAgfQogICAgb3V0cHV0Q3Vyc29yLmRlc3Ryb3koKTsKCiAgICByZXR1cm4gb3V0cHV0QXJyYXk7
+CiAgfQ==</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.util.coder.IDataXMLCoder</value>
+    <value>com.wm.util.Config</value>
+    <value>com.wm.lang.ns.NSNode</value>
+    <value>com.wm.lang.ns.NSPackage</value>
+    <value>com.wm.app.b2b.client.Context</value>
+    <value>com.wm.app.b2b.client.ns.NSQuery</value>
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>java.io.File</value>
+    <value>java.io.FileFilter</value>
+    <value>java.io.IOException</value>
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.Date</value>
+    <value>java.util.Enumeration</value>
+    <value>org.apache.commons.io.FileUtils</value>
+    <value>org.apache.commons.io.filefilter.WildcardFileFilter</value>
+    <value>junit.framework.TestResult</value>
+    <value>com.wm.ps.test.*</value>
+  </array>
+</Values>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Test " name="MyDemoTestSuite">
+    <webMethodsTestCase name="DemoTestCase1">
+        <service folder="MedTestSuiteDemo.service" name="addNumbers">
+            <input>
+                <file filename="C:/SoftwareAG101/IntegrationServer/instances/default/packages/MedTestSuiteDemo_Test/resources/test/data/MyDemoTestSuiteAddNumber_Input.xml"/>
+            </input>
+            <expected>
+                <file filename="C:/SoftwareAG101/IntegrationServer/instances/default/packages/MedTestSuiteDemo_Test/resources/test/data/MyDemoTestSuiteAddNumber_Output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Failure case" name="CaseForCFailure">
+        <service folder="" name="">
+            <input>
+                <file/>
+            </input>
+            <expected>
+                <file/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

@@ -1,0 +1,60 @@
+
+<html> 
+
+  <!-- Copyright (c) 2016, Software AG  All Rights Reserved. -->
+
+	<head>
+		<title>Mocking Mode</title>
+		%include webMethods.js%
+		
+		<script>
+	function deleteMock(a){
+	
+	//var x = document.getElementById(a).value;
+	//console.log("service " );
+	window.location.href='deleteMock.dsp?service='+ a;
+	}
+		
+</script>
+		
+		%include htmlHeadDefaults.dsp%
+		
+		
+ </head>
+	
+
+	<body>  
+	%invoke wx.regression.mock:registerMocks%
+	%endinvoke%
+	<table height=10% ><tr><td>&nbsp;</td></tr></table>
+	%invoke wx.regression.mock:getMocks%
+	   <table border="1" style="width: 50%;"  align="center" cellpadding=2 cellspacing=2 class="table-striped newtable">
+		<tr align="center">
+			<th>Service</th>
+			<th>Scheduled From</th>
+			<th>Scheduled To</th>
+			<th>Mock Type</th>
+			<th>Mocking Service</th>
+			<th>Mocking Pipeline</th>
+			<th>Is Scheduled</th>
+			<th>Delete Mock</th>
+		</tr>
+		%loop Mocks%
+		<tr align="center">
+			<td>%value service%</td>
+			<td>%value from%</td>
+			<td>%value to%</td>
+			<td>%value mockType%</td>
+			<td>%value mockService%</td>
+			<td>%value mockPipeline%</td>
+			<td>%value active%</td>
+			<td><input type="button" id=%value service% value="Delete" onclick="deleteMock(this.id)"/></td>
+		</tr>
+		%endloop%
+		 <tr><td colspan="8" align="center"><b>%value status%</b></td></tr>
+   </table>
+      
+   %endinvoke%
+	
+	</body> 
+</html> 

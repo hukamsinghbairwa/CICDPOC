@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.util.Values">
+    <value name="result">70</value>
+    <value name="interface">MedTestSuiteDemo.service</value>
+    <value name="service">addNumbers</value>
+    <value name="withargs">true</value>
+    <value name="number1">30</value>
+    <value name="number2">40</value>
+  </record>
+</IDataXMLCoder>

@@ -1,0 +1,37 @@
+
+<html> 
+
+  <!-- Copyright (c) 2016, Software AG  All Rights Reserved. -->
+
+	<head>
+		<title>Record Test</title>
+		%include webMethods.js%
+		
+<script>
+
+		
+	
+</script>
+		
+		%include htmlHeadDefaults.dsp%
+		
+		
+ </head>
+	
+
+	<body>  
+	<table height=10% align="center" ><tr><td>&nbsp;</td></tr>
+	<tr ><th><h3> Bulk Interceptors</h3></th></tr></table>
+	%invoke wx.regression.record:deleteBatchInterceptors%
+	   <table border="1" style="width: 50%;"  align="center" cellpadding=2 cellspacing=2>
+		<tr align="center" >
+			<th >%value status%</th>
+			
+		</tr>
+		
+		
+   </table>
+  
+   
+	</body> 
+</html> 

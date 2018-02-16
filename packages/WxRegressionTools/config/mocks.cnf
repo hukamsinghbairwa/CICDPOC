@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mockconfig>
+  <mock service="MedTestSuiteDemo.service:initName">
+    <from>2018/01/22 16:00</from>
+    <to>2018/01/22 17:00</to>
+    <type>Pipeline</type>
+    <service></service>
+    <IData>C:\SoftwareAG912\IntegrationServer\instances\default\pipeline\MedTestSuiteDemo_service_initName_pipeout_18012215312232528.xml</IData>
+    <active>false</active>
+  </mock>
+</mockconfig>

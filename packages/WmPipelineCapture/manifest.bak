@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">4.0</value>
+  <null name="replication_services"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmServiceMock">*.*</value>
+  </record>
+  <value name="listACL">Default</value>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="wm.ps.pipelineCapture.admin:startup"/>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <null name="wm.ps.pipelineCapture.admin:shutdown"/>
+  </record>
+  <value name="webappLoad">yes</value>
+</Values>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <value name="wm.ps.serviceMock:startup"></value>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <value name="wm.ps.serviceMock:shutdown"></value>
+  </record>
+  <value name="name">WmServiceMock</value>
+  <value name="description"></value>
+  <value name="jvm_version">1.8.0_141</value>
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="publisher">MCHUBA01.eur.ad.sag</value>
+  <value name="version">10.1.0.0.22</value>
+  <value name="build">22</value>
+  <value name="time">2018-01-19 20:07:08 IST</value>
+  <value name="patch_nums"></value>
+</Values>

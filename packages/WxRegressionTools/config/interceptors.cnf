@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<interceptorconfig>
+  <intercept service="MedTestSuiteDemo.service:addNumbers">
+    <from>2018/01/29 22:00</from>
+    <to>2018/01/29 23:00</to>
+    <active>false</active>
+  </intercept>
+</interceptorconfig>

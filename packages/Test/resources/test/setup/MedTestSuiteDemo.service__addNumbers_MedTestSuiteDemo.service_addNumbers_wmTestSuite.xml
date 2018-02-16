@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="TestSuite">
+    <webMethodsTestCase description="This test case was created automatically using a wrapper" name="MedTestSuiteDemo.service:addNumbers( 18012918302919878)">
+        <service folder="MedTestSuiteDemo.service" name="addNumbers">
+            <input>
+                <file filename="resources\test\data\MedTestSuiteDemo_service_addNumbers_pipein_18012918302919878.xml"/>
+            </input>
+            <expected>
+                <file filename="resources\test\data\MedTestSuiteDemo_service_addNumbers_pipeout_18012918302919878.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

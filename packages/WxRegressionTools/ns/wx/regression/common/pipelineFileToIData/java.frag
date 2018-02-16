@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">pipelineFileToIData</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoJU3RyaW5nCWZpbGVOYW1lID0gSURhdGFVdGlsLmdldFN0cmluZyggcGlwZWxpbmVD
+dXJzb3IsICJmaWxlTmFtZSIgKTsNCgkJLy8gcGlwZWxpbmUNCglGaWxlIHBGaWxlID0gbmV3IEZp
+bGUoZmlsZU5hbWUpOw0KCUlEYXRhWE1MQ29kZXIgeGMgPSBuZXcgSURhdGFYTUxDb2RlcigpOw0K
+CQ0KDQovLyBwaXBlbGluZURhdGENCklEYXRhIHBpcGVsaW5lRGF0YSA9IG51bGw7DQp0cnkgew0K
+CXBpcGVsaW5lRGF0YSA9IHhjLnJlYWRGcm9tRmlsZShwRmlsZSk7DQp9IGNhdGNoIChJT0V4Y2Vw
+dGlvbiBlKSB7DQoJLy8gVE9ETyBBdXRvLWdlbmVyYXRlZCBjYXRjaCBibG9jaw0KCWUucHJpbnRT
+dGFja1RyYWNlKCk7DQp9DQoNCklEYXRhVXRpbC5wdXQoIHBpcGVsaW5lQ3Vyc29yLCAicGlwZWxp
+bmVEYXRhIiwgcGlwZWxpbmVEYXRhICk7DQpwaXBlbGluZUN1cnNvci5kZXN0cm95KCk7DQoJ</value>
+</Values>

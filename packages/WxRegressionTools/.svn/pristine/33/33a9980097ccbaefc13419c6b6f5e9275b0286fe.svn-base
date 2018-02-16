@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<buttonUrls>
+<sections>
+		<name>Dashboard</name>
+		<text>Dashboard</text>
+		<submenu>
+			<name>Stats</name>
+			<text>Stats</text>
+			<url>Stats.dsp</url>
+		</submenu>
+</sections>
+
+<sections>
+		<name>Record</name>
+		<text>Record</text>
+		<submenu>
+			<name>View Services</name>
+			<text>View Services</text>
+			<url>listInterceptors.dsp</url>
+		</submenu>
+		<submenu>
+			<name>Register Services</name>
+			<text>Register Services</text>
+			<url>recordModeSelection.dsp</url>
+		</submenu>
+		<submenu>
+			<name>Bulk Upload</name>
+			<text>Bulk Upload</text>
+			<url>bulkUpload.dsp</url>
+		</submenu>
+
+</sections>
+
+<sections>
+		<name>Mock</name>
+		<text>Mock</text>
+		<submenu>
+			<name>View Services</name>
+			<text>View Services</text>
+			<url>listMocks.dsp</url>
+		</submenu>
+		<submenu>
+			<name>Register Services</name>
+			<text>Register Services</text>
+			<url>selectMock.dsp</url>
+		</submenu>
+
+</sections>
+<sections>
+		<name>Test Automation</name>
+		<text>Test Automation</text>
+		<submenu>
+			<name>Create Test Suite</name>
+			<text>Create Test Suite</text>
+			<url>suiteAutomation.dsp</url>
+		</submenu>
+		<submenu>
+			<name>Run Test Suite</name>
+			<text>Run Test Suite</text>
+			<url>runSuite.dsp</url>
+		</submenu>
+</sections>
+
+
+
+
+</buttonUrls>
