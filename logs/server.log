@@ -1,0 +1,252 @@
+2018-02-02 13:06:22 IST [ISS.0025.0001C] Integration Server 9.12.0.0 Build 91
+2018-02-02 13:06:22 IST [ISS.0025.0006I] License Manager started
+2018-02-02 13:06:23 IST [ISS.0025.0050W] The JCE Unlimited Strength Jurisdiction Policy File was not found.  Please install it.
+2018-02-02 13:06:24 IST [ISS.0025.0041I] FIPS mode not initialized
+2018-02-02 13:06:25 IST [BAS.0123.0001I] FSData full consistency check is being performed. Db:WmRepository4\RepoV4
+2018-02-02 13:06:27 IST [ISS.0025.0017I] Repository Manager started
+2018-02-02 13:06:35 IST [ISS.0025.0024I] JDBC Connection Manager started
+2018-02-02 13:06:39 IST [ISS.0095.0013I] Audit Logging initialized.
+2018-02-02 13:06:42 IST [ISS.0033.0168C] Cluster Node Name: MCHUBA01.eur.ad.sag.
+2018-02-02 13:06:42 IST [ISS.0025.0021I] ACL Manager started
+2018-02-02 13:06:43 IST [ISS.0025.0008I] State Manager started
+2018-02-02 13:06:43 IST [ISS.0025.0010I] Service Manager started
+2018-02-02 13:06:43 IST [ISS.0025.0020I] Validation Processor started
+2018-02-02 13:06:43 IST [ISS.0025.0022I] Statistics Processor started
+2018-02-02 13:06:43 IST [ISS.0025.0018I] Invoke Manager started
+2018-02-02 13:06:43 IST [ISS.0025.0012I] Cache Manager started
+2018-02-02 13:06:44 IST [BAS.0123.0001I] FSData full consistency check is being performed. Db:DocumentStore\ISTransStore
+2018-02-02 13:06:45 IST [ISS.0098.0026I] Document Store DefaultStore initialized
+2018-02-02 13:06:47 IST [BAS.0123.0001I] FSData full consistency check is being performed. Db:DocumentStore\TriggerStore
+2018-02-02 13:06:47 IST [ISS.0098.0026I] Document Store VolatileTriggerStore initialized
+2018-02-02 13:06:47 IST [ISS.0098.0026I] Document Store TriggerStore initialized
+2018-02-02 13:06:47 IST [BAS.0123.0001I] FSData full consistency check is being performed. Db:DocumentStore\ISResubmitStore
+2018-02-02 13:06:48 IST [ISS.0098.0026I] Document Store ResubmitStore initialized
+2018-02-02 13:06:49 IST [ISS.0153.0007I] webMethods Messaging connection alias IS_DES_CONNECTION started
+2018-02-02 13:06:49 IST [ISS.0153.0000I] webMethods Messaging subsystem started
+2018-02-02 13:06:49 IST [ISS.0106.0001I] Join Manager initialized
+2018-02-02 13:06:49 IST [ISS.0025.0032I] Dispatcher initialized
+2018-02-02 13:06:49 IST [ISS.0134.0128I] JMS subsystem is starting.
+2018-02-02 13:06:50 IST [ISS.0134.0998I] DEFAULT_IS_JMS_CONNECTION cache enabled :: true
+2018-02-02 13:06:50 IST [ISS.0134.0998I] PE_NONTRANSACTIONAL_ALIAS cache enabled :: true
+2018-02-02 13:06:50 IST [ISS.0134.0000I] JMS subsystem started
+2018-02-02 13:06:50 IST [BAS.0123.0001I] FSData full consistency check is being performed. Db:XAStore\DefaultXAStore
+2018-02-02 13:06:50 IST [SCC.0121.0093I] XA Recovery Store initialized
+2018-02-02 13:06:50 IST [agent.load.tartI] Loading registry config file C:\SoftwareAG912\IntegrationServer\instances\default\config\fabric-agent.xml
+2018-02-02 13:06:51 IST [com.webmethods.fabric.agent.FabricAgent.agent.startI] Starting Fabric Agent
+2018-02-02 13:06:51 IST [ISS.0025.0055I] Lock Manager initialized
+2018-02-02 13:06:57 IST [ISS.0158.0000I] OData Server module is initialized.
+2018-02-02 13:06:57 IST [ISS.0048.9999I] Successfully initialized module "odata-server" by com.softwareag.is.odata.core.Init
+2018-02-02 13:06:57 IST [ISS.0139.9999I] Initializing ISKeyStoreManager using watt.server.homeDir:C:\SoftwareAG912\IntegrationServer\instances\default\config\security\keystore
+2018-02-02 13:06:57 IST [ISS.0139.9999I] ISKeyStoreManager initialized successfully.
+2018-02-02 13:06:57 IST [ISS.0025.0004I] Flow Service Manager started
+2018-02-02 13:06:57 IST [ISS.0025.0002I] Package Manager started
+2018-02-02 13:06:57 IST [ISS.0025.0011I] Package Replicator Manager started
+2018-02-02 13:06:57 IST [ISS.0028.0001I] Loading packages
+2018-02-02 13:07:09 IST [ISS.0028.0005I] Loading WmRoot package
+2018-02-02 13:07:22 IST [ISS.0028.0005I] Loading WmPublic package
+2018-02-02 13:07:22 IST [ISS.0028.0005I] Loading WmISExtDC package
+2018-02-02 13:07:23 IST [ISS.0028.0005I] Loading WmAssetPublisher package
+2018-02-02 13:07:23 IST [ISS.0028.0005I] Loading WmXSLT package
+2018-02-02 13:07:23 IST [ISS.0028.0005I] Loading WmNUMDeployer package
+2018-02-02 13:07:23 IST [ISS.0028.0005I] Loading WmBrokerDeployer package
+2018-02-02 13:07:24 IST [ISS.0028.0005I] Loading WmCloud package
+2018-02-02 13:07:24 IST [ISS.0028.0005I] Loading WmAgileAppsDeployer package
+2018-02-02 13:07:25 IST [ISS.0028.0005I] Loading WmVCS package
+2018-02-02 13:07:25 IST [ISS.0028.0005I] Loading WmFlatFile package
+2018-02-02 13:07:27 IST [ISS.0028.0005I] Loading WmART package
+2018-02-02 13:07:28 IST [ISS.0028.0005I] Loading WmARTExtDC package
+2018-02-02 13:07:29 IST [ISS.0028.0005I] Loading WmDeployer package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading MyDemoTestSuite_TS package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading MedTestSuiteDemo package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading MedTestSuiteDemo_Test package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading Test package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading WmServiceMock package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading Default package
+2018-02-02 13:07:34 IST [ISS.0028.0005I] Loading WmPipelineCapture package
+2018-02-02 13:07:35 IST [ISS.0028.0005I] Loading WxRegressionTools package
+2018-02-02 13:07:38 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.event:startEventAgentPort)
+2018-02-02 13:07:38 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.email:init)
+2018-02-02 13:07:38 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftp:init)
+2018-02-02 13:07:38 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.ftps:init)
+2018-02-02 13:07:38 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.net.http:init)
+2018-02-02 13:07:39 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.ns:syncToNamespace)
+2018-02-02 13:07:39 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.remote:init)
+2018-02-02 13:07:39 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.proxy:init)
+2018-02-02 13:07:39 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.schedule:init)
+2018-02-02 13:07:39 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.dispatcher:init)
+2018-02-02 13:07:39 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.tx:init)
+2018-02-02 13:07:39 IST [ISC.0063.0011I] Start
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.soap:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.tspace:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.ws:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.oauth:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.security.keystore:createDefaultKeyStoreTrustStoreAliases)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.ntlmclient:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.kerberossettings:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmRoot: Startup service (wm.server.admin:initHelpTopicURLMappings)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmPublic: Startup service (pub.storage:startup)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmPublic: Startup service (pub.event.nerv:init)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmNUMDeployer: Startup service (com.softwareag.deployer.num.java.Util:startup)
+2018-02-02 13:07:40 IST [ISS.0028.0012I] WmXSLT: Startup service (wm.xslt.Admin:startup)
+2018-02-02 13:07:41 IST [ISS.0028.0012I] WmISExtDC: Startup service (com.wm.isextdc.PkgInit:init)
+2018-02-02 13:07:41 IST [ISS.0028.0012I] WmAssetPublisher: Startup service (wm.server.metadata.Admin:startup)
+2018-02-02 13:07:41 IST [ISS.0138.0050I] Asset Publisher package initializing
+2018-02-02 13:07:41 IST [ISS.0028.0012I] WmAgileAppsDeployer: Startup service (com.softwareag.agileapps.deployer.Util:startup)
+2018-02-02 13:07:41 IST [ISS.0028.0012I] WmDeployer: Startup service (wm.deployer.Util:startup)
+2018-02-02 13:07:41 IST [ISS.0028.0012I] WmDeployer: Startup service (wm.deployer.Util:verifyPlugins)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmVCS: Startup service (wm.server.vcsadmin:startup)
+2018-02-02 13:07:42 IST [VCS.0132.0050I] VCS package initializing
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmVCS: Startup service (wm.server.vcsui:addSolutions)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:createDefaultILiveTrustStoreAlias)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.admin:loadTenantAccountInfo)
+2018-02-02 13:07:42 IST [ISS.0021.6005I] webMethods Cloud information was not loaded because the settings are not specified.
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmCloud: Startup service (wm.client.integrationlive.connector:initConnectors)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmART: Startup service (wm.art.admin:startup)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:init)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmFlatFile: Startup service (wm.server.ff:setACLs)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmARTExtDC: Startup service (com.wm.artextdc.pkginit:init)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmServiceMock: Startup service (wm.ps.serviceMock:startup)
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WmPipelineCapture: Startup service (wm.ps.pipelineCapture.admin:startup)
+2018-02-02 13:07:42 IST [ISP.0090.0004I] WmPipelineCapture -- License Check
+2018-02-02 13:07:42 IST [ISP.0090.0004I] WmPipelineCapture -- License Status:valid
+2018-02-02 13:07:42 IST [ISS.0028.0012I] WxRegressionTools: Startup service (wx.regression.init:startUp)
+2018-02-02 13:07:42 IST [ISP.0046.0012I] Enabling HTTP Listener on port 9999
+2018-02-02 13:07:42 IST [ISP.0046.0012I] Enabling HTTP Listener on port 5555
+2018-02-02 13:07:42 IST [ISS.0098.0021I] Persistent Trigger Output Dispatcher started
+2018-02-02 13:07:42 IST [ISS.0098.0021I] Volatile Trigger Output Dispatcher started
+2018-02-02 13:07:43 IST [ISS.0098.0027I] PersistenceManager started all Stores
+2018-02-02 13:07:43 IST [ISS.0025.0036I] Dispatcher started
+2018-02-02 13:07:43 IST [ISS.0025.0013I] Cache Sweeper started
+2018-02-02 13:07:43 IST [ISS.0035.0003I] Log rotation interval set to 1440 minutes.
+2018-02-02 13:07:43 IST [ISS.0159.0001I] Digital Event Services Initialized.
+2018-02-02 13:07:43 IST [ISS.0014.0002C] Initialization completed in 88 seconds.
+2018-02-02 13:07:43 IST [ISS.0025.0016I] Config File Directory Saved
+2018-02-02 13:07:43 IST [ISS.0025.0057I] Reading system level information
+2018-02-03 13:38:18 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-05 13:13:29 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-06 13:13:50 IST [ISS.0053.0002C] Access denied for user Administrator on port 5555 -> 'wm-message' from 127.0.0.1.
+2018-02-06 16:13:09 IST [ISS.0028.9999I] Cannot disable WmPipelineCapture. Enabled packages [WxRegressionTools] depend on WmPipelineCapture
+2018-02-06 16:13:22 IST [ISS.0028.0034I] Package WxRegressionTools is stopping.
+2018-02-06 16:13:22 IST [ISS.0028.0015I] WxRegressionTools: Shutdown service (wx.regression.init:shutDown)
+2018-02-06 16:13:22 IST [ISS.0028.0042I] Unloading WxRegressionTools package
+2018-02-06 16:13:31 IST [ISS.0028.0034I] Package WmPipelineCapture is stopping.
+2018-02-06 16:13:31 IST [ISS.0028.0015I] WmPipelineCapture: Shutdown service (wm.ps.pipelineCapture.admin:shutdown)
+2018-02-06 16:13:31 IST [ISS.0028.0042I] Unloading WmPipelineCapture package
+2018-02-06 16:16:48 IST [ISS.0028.0034I] Package WmPipelineCapture is stopping.
+2018-02-06 16:16:48 IST [ISS.0028.0017E] Shutdown service wm.ps.pipelineCapture.admin:shutdown was not found in WmPipelineCapture package
+2018-02-06 16:16:48 IST [ISS.0028.0042I] Unloading WmPipelineCapture package
+2018-02-06 16:16:48 IST [ISS.0028.0042I] Unloading WmPipelineCapture package
+2018-02-06 16:16:48 IST [ISS.0028.0037I] Package WmPipelineCapture was deleted.
+2018-02-06 16:16:52 IST [ISS.0028.0005I] Loading WmPipelineCapture package
+2018-02-06 16:16:52 IST [ISS.0028.0012I] WmPipelineCapture: Startup service (wm.ps.pipelineCapture.admin:startup)
+2018-02-06 16:16:52 IST [ISS.0028.0048E] Failed to read class com.wm.ps.serviceMock.ServiceInvokeMockFilter from input stream
+2018-02-06 16:16:52 IST [ISP.0090.0004I] WmPipelineCapture -- Version does not support mock filters. Disabling feature
+2018-02-06 16:16:52 IST [ISP.0090.0004I] WmPipelineCapture -- License Check
+2018-02-06 16:16:52 IST [ISP.0090.0004E] WmPipelineCapture -- Error in license check : com.sag.gcs.common.lm.LicenseException: Could not read the public key file from package 'WmPipelineCapture' :Missing file 'C:\SoftwareAG912\IntegrationServer\instances\default\packages\WmPipelineCapture\config\license.txt'
+2018-02-06 16:16:52 IST [ISP.0090.0004I] WmPipelineCapture -- License Status:not valid
+2018-02-06 16:17:08 IST [ISS.0028.0005I] Loading WxRegressionTools package
+2018-02-06 16:17:09 IST [ISS.0028.0012I] WxRegressionTools: Startup service (wx.regression.init:startUp)
+2018-02-06 16:26:57 IST [ISS.0028.0005I] Loading TestScenarios package
+2018-02-06 16:30:53 IST [ISC.0081.0001I] New TestScenarios:testServiceCP
+2018-02-06 16:40:36 IST [ISS.0028.0015I] WxRegressionTools: Shutdown service (wx.regression.init:shutDown)
+2018-02-06 16:40:36 IST [ISS.0028.0042I] Unloading WxRegressionTools package
+2018-02-06 16:40:37 IST [ISS.0028.0015I] WmPipelineCapture: Shutdown service (wm.ps.pipelineCapture.admin:shutdown)
+2018-02-06 16:40:37 IST [ISS.0028.0042I] Unloading WmPipelineCapture package
+2018-02-06 16:40:37 IST [ISS.0028.0005I] Loading WmPipelineCapture package
+2018-02-06 16:40:37 IST [ISS.0028.0012I] WmPipelineCapture: Startup service (wm.ps.pipelineCapture.admin:startup)
+2018-02-06 16:40:37 IST [ISS.0028.0048E] Failed to read class com.wm.ps.serviceMock.ServiceInvokeMockFilter from input stream
+2018-02-06 16:40:37 IST [ISP.0090.0004I] WmPipelineCapture -- Version does not support mock filters. Disabling feature
+2018-02-06 16:40:37 IST [ISP.0090.0004I] WmPipelineCapture -- License Check
+2018-02-06 16:40:37 IST [ISP.0090.0004E] WmPipelineCapture -- Error in license check : com.sag.gcs.common.lm.LicenseException: Could not read the public key file from package 'WmPipelineCapture' :Missing file 'C:\SoftwareAG912\IntegrationServer\instances\default\packages\WmPipelineCapture\config\license.txt'
+2018-02-06 16:40:37 IST [ISP.0090.0004I] WmPipelineCapture -- License Status:not valid
+2018-02-06 16:40:37 IST [ISS.0028.0017E] Shutdown service wx.regression.init:shutDown was not found in WxRegressionTools package
+2018-02-06 16:40:37 IST [ISS.0028.0042I] Unloading WxRegressionTools package
+2018-02-06 16:40:37 IST [ISS.0028.0005I] Loading WxRegressionTools package
+2018-02-06 16:40:38 IST [ISS.0028.0012I] WxRegressionTools: Startup service (wx.regression.init:startUp)
+2018-02-06 16:49:12 IST [ISP.0090.0004I] WmServiceMock -- Service TestScenarios:testServiceCP mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 16:50:59 IST [ISP.0090.0004I] WmServiceMock -- Service TestScenarios:testServiceCP mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 16:54:09 IST [ISS.0028.0015I] WxRegressionTools: Shutdown service (wx.regression.init:shutDown)
+2018-02-06 16:54:09 IST [ISS.0028.0042I] Unloading WxRegressionTools package
+2018-02-06 16:54:11 IST [ISS.0028.0015I] WmPipelineCapture: Shutdown service (wm.ps.pipelineCapture.admin:shutdown)
+2018-02-06 16:54:11 IST [ISS.0028.0042I] Unloading WmPipelineCapture package
+2018-02-06 16:54:11 IST [ISS.0028.0005I] Loading WmPipelineCapture package
+2018-02-06 16:54:11 IST [ISS.0028.0012I] WmPipelineCapture: Startup service (wm.ps.pipelineCapture.admin:startup)
+2018-02-06 16:54:11 IST [ISS.0028.0048E] Failed to read class com.wm.ps.serviceMock.ServiceInvokeMockFilter from input stream
+2018-02-06 16:54:11 IST [ISP.0090.0004I] WmPipelineCapture -- Version does not support mock filters. Disabling feature
+2018-02-06 16:54:11 IST [ISP.0090.0004I] WmPipelineCapture -- License Check
+2018-02-06 16:54:11 IST [ISP.0090.0004I] WmPipelineCapture -- License Check Product:WmPipelineCapture, Version:4.0 [null-null], Features:null : Invalid Signature
+2018-02-06 16:54:11 IST [ISP.0090.0004I] WmPipelineCapture -- License Status:not valid
+2018-02-06 16:54:11 IST [ISS.0028.0017E] Shutdown service wx.regression.init:shutDown was not found in WxRegressionTools package
+2018-02-06 16:54:11 IST [ISS.0028.0042I] Unloading WxRegressionTools package
+2018-02-06 16:54:11 IST [ISS.0028.0005I] Loading WxRegressionTools package
+2018-02-06 16:54:15 IST [ISS.0028.0012I] WxRegressionTools: Startup service (wx.regression.init:startUp)
+2018-02-06 16:54:15 IST [ISP.0090.0004I] WmServiceMock -- Service pub.flow:clearPipeline mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 16:56:18 IST [ISP.0090.0004I] WmServiceMock -- Service TestScenarios:testServiceCP mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 16:58:38 IST [ISS.0028.0034I] Package WxRegressionTools is stopping.
+2018-02-06 16:58:38 IST [ISS.0028.0015I] WxRegressionTools: Shutdown service (wx.regression.init:shutDown)
+2018-02-06 16:58:38 IST [ISS.0028.0042I] Unloading WxRegressionTools package
+2018-02-06 16:58:49 IST [ISS.0028.0034I] Package WmPipelineCapture is stopping.
+2018-02-06 16:58:49 IST [ISS.0028.0015I] WmPipelineCapture: Shutdown service (wm.ps.pipelineCapture.admin:shutdown)
+2018-02-06 16:58:49 IST [ISS.0028.0042I] Unloading WmPipelineCapture package
+2018-02-06 16:59:25 IST [ISS.0028.0014E] Startup service wm.ps.pipelineCapture.admin:startup was not found in WmPipelineCapturejvm1 package
+2018-02-06 16:59:25 IST [ISS.0028.0014E] Startup service Extension.clearServiceCache:clearServiceCacheFlow was not found in WmPipelineCapturejvm1 package
+2018-02-06 17:00:38 IST [ISS.0028.0005I] Loading WmPipelineCapturejvm1 package
+2018-02-06 17:00:38 IST [ISS.0028.0012I] WmPipelineCapturejvm1: Startup service (wm.ps.pipelineCapture.admin:startup)
+2018-02-06 17:00:38 IST [ISS.0028.0012I] WmPipelineCapturejvm1: Startup service (Extension.clearServiceCache:clearServiceCacheFlow)
+2018-02-06 17:00:38 IST [ISS.0016.0005I] Cache cleared for service Extension.utils:getExtensionConfigFileCached
+2018-02-06 17:01:39 IST [ISP.0090.0004I] WmServiceMock -- Service TestScenarios:testServiceCP mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 17:01:39 IST [ISP.0090.0004I] WmServiceMock -- Service pub.flow:clearPipeline mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 17:06:03 IST [ISP.0090.0004I] WmServiceMock -- Service TestScenarios:testServiceCP mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-06 17:06:03 IST [ISP.0090.0004I] WmServiceMock -- Service pub.flow:clearPipeline mocked by factory com.wm.ps.serviceMock.PipelineCaptureFactory.
+2018-02-07 13:07:32 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-02-07 13:07:32 IST [WmAuditingSC.logger.3405E] In logger 'Session Logger', failed to log to destination; reason: Destination 'AuditFSDest' is not open
+2018-03-02 23:48:47 IST [ISS.0014.0005I] Shutting down server. com.softwareag.osgi.is.launcher.ISLauncher
+2018-03-02 23:48:47 IST [ISS.0070.0029I] Stopping listeners from accepting new requests.
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmPipelineCapturejvm1: Shutdown service (wm.ps.pipelineCapture.admin:shutdown)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmPipelineCapturejvm1: Shutdown service (Extension.clearServiceCache:clearServiceCacheFlow)
+2018-03-02 23:48:48 IST [ISS.0016.0005I] Cache cleared for service Extension.utils:getExtensionConfigFileCached
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmServiceMock: Shutdown service (wm.ps.serviceMock:shutdown)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmARTExtDC: Shutdown service (com.wm.artextdc.pkginit:shutdown)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmFlatFile: Shutdown service (wm.server.ff:shutdown)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmART: Shutdown service (wm.art.admin:shutdown)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmCloud: Shutdown service (wm.client.integrationlive.connector:releaseConnectors)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmCloud: Shutdown service (wm.client.integrationlive.admin:deleteDefaultILiveTrustStoreAlias)
+2018-03-02 23:48:48 IST [ISS.0028.0016E] Shutdown service exited with the following error: com.wm.app.b2b.server.ServiceException: [ISS.0139.9036] Error: unable to delete the truststore alias 'DEFAULT_WMCLOUD_TRUSTSTORE'.
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmVCS: Shutdown service (wm.server.ui:removeSolution)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmVCS: Shutdown service (wm.server.vcsadmin:shutdown)
+2018-03-02 23:48:48 IST [VCS.0132.0051I] VCS package shutting down
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmDeployer: Shutdown service (wm.deployer.Util:shutdown)
+2018-03-02 23:48:48 IST [ISS.0028.0015I] WmAssetPublisher: Shutdown service (wm.server.metadata.Admin:shutdown)
+2018-03-02 23:48:48 IST [ISS.0138.0051I] Asset Publisher package shutting down
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmISExtDC: Shutdown service (com.wm.isextdc.PkgInit:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmPublic: Shutdown service (pub.storage:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmPublic: Shutdown service (pub.sync:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmPublic: Shutdown service (pub.client.sftp:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.http:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.ftp:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.net.email:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.tx:shutdown)
+2018-03-02 23:48:49 IST [ISC.0063.0013I] Shutdown
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.schedule:shutdown)
+2018-03-02 23:48:49 IST [ISS.0028.0015I] WmRoot: Shutdown service (wm.server.remote:shutdown)
+2018-03-02 23:48:49 IST [ISC.0042.0004I] Peak BigMemory usage: 0M
+2018-03-02 23:48:50 IST [ISS.0134.0001I] JMS subsystem shutdown completed
+2018-03-02 23:48:50 IST [ISS.0098.0022I] Persistent Trigger Output Dispatcher stopped
+2018-03-02 23:48:50 IST [ISS.0098.0022I] Volatile Trigger Output Dispatcher stopped
+2018-03-02 23:48:51 IST [ISS.0025.0033I] Dispatcher shutdown completed
+2018-03-02 23:48:51 IST [ISS.0153.0006I] webMethods Messaging connection alias IS_UM_CONNECTION stopped
+2018-03-02 23:48:51 IST [ISS.0153.0006I] webMethods Messaging connection alias IS_DES_CONNECTION stopped
+2018-03-02 23:48:51 IST [ISS.0153.0001I] webMethods Messaging subsystem shutdown completed
+2018-03-02 23:49:00 IST [SCC.0121.0103I] XA Recovery Store shutdown completed.
+2018-03-02 23:49:00 IST [ISP.0046.0011I] Disabling HTTP Listener on port 9999
+2018-03-02 23:49:00 IST [ISP.0046.0011I] Disabling HTTP Listener on port 5555
+2018-03-02 23:49:01 IST [ISS.0014.0006I] Server shutdown completed.
