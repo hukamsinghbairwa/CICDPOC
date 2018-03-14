@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Contains test cases for MedTestSuiteDemo" name="MedTestSuiteDemo">
+    <webMethodsTestCase description="Priority 1 test case with test case number 00001" name="P1_Success_00001">
+        <service folder="MedTestSuiteDemo.service" name="addNumbers">
+            <input>
+                <file filename="resources/test/data/addNumbersWithSuccessInput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/addNumbersWithSuccessOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Test case for failure" name="P2_Fail_00001">
+        <service folder="MedTestSuiteDemo.service" name="addNumbers">
+            <input>
+                <file filename="resources/test/data/addNumbersWithFailInput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/addNumbersWithFailOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="P1 Success for Greetings" name="P1_Success_Greetings_0001">
+        <service folder="MedTestSuiteDemo.service" name="printMessage">
+            <input>
+                <file filename="resources/test/data/printMessageWithSuccessInput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/printMessageWithSuccessOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Moking of service" name="P1_Success_Greetings_Mock_0001">
+        <mock folder="MedTestSuiteDemo.service" lifetime="suite" name="initName">
+            <pipeline filename="resources/test/data/InitNameWithSuccessForMockOutput.xml"/>
+        </mock>
+        <service folder="MedTestSuiteDemo.service" name="printMessage">
+            <input>
+                <file filename="resources/test/data/printMessageWithSuccessForMockInput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/printMessageWithSuccessForMockOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase description="Fail due to Mocked result" name="P1_Fail_Greetings_Mock_0001">
+        <mock folder="MedTestSuiteDemo.service" name="initName">
+            <pipeline filename="resources/test/data/InitNameWithFailForMockOutput.xml"/>
+        </mock>
+        <service folder="MedTestSuiteDemo.service" name="printMessage">
+            <input>
+                <file filename="resources/test/data/printMessageWithFailForMockInput.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/printMessageWithFailForMockOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
