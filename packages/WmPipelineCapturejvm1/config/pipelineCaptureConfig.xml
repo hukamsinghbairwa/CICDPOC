@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
 <pipelineCaptureConfig captureInput="false" captureOutput="false" captureOnError="false" pipelineFolder="pipeline" perServiceFolder="false" inputFilenamePrefix="pipein" skipFoldernames="false" outputFilenamePrefix="pipeout" errorFilenamePrefix="pipeerr" filenameSuffix=".xml" datePattern="yyMMddHHmmddssSSS">
-  <service name="pub.flow:tracePipeline" captureExtension="com.wm.ps.serviceMock.ServiceInvokeCaptureExtensionSubclass" extensionBeforeCapture="true"/>
-  <service name="WarrantyUpdateWES_Services.common.services:startMainWarrantyUpdateWES" captureInput="true" captureOutput="true"/>
+  <service name="TestScenarios:testServiceCP" captureInput="true" captureOutput="true" captureOnError="true" endsWithClearPipeline="true"/>
   <service name="PipelineCaptureScenarios:sc7" captureInput="true" captureOutput="true" captureOnError="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="pub.flow:debugLog" captureInput="true" captureOutput="true"/>
-  <service name="test.flow:nextService" filenameExtension="test.flow:suffixSvc" endsWithClearPipeline="true"/>
   <service name="PipelineCaptureScenarios:sc5" captureInput="true" captureOutput="true" captureOnError="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="PipelineCaptureScenarios:sc6" captureInput="true" captureOutput="true" captureOnError="true" endsWithClearPipeline="true"/>
   <service name="PipelineCaptureScenarios:sc3" captureInput="true" captureOutput="true" captureOnError="true" endsWithClearPipeline="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="PipelineCaptureScenarios:sc4" captureInput="true" captureOutput="true" captureOnError="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="PipelineCaptureScenarios:sc1" captureInput="true" captureOutput="true" captureOnError="true" endsWithClearPipeline="true" filenameExtension="Extension.services:getFileNameExtension"/>
-  <service name="Default.service:test1" captureInput="true" captureOutput="true" endsWithClearPipeline="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="PipelineCaptureScenarios:sc2" captureInput="true" captureOutput="true" captureOnError="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="Default.service:test1123" captureInput="true" captureOutput="true"/>
   <service name="PipelineCaptureScenarios:sc0" captureInput="true" captureOutput="true" captureOnError="true" filenameExtension="Extension.services:getFileNameExtension"/>
+  <service name="Default.service:test1" captureInput="true" captureOutput="true" endsWithClearPipeline="true" filenameExtension="Extension.services:getFileNameExtension"/>
   <service name="test.flow:topService1" endsWithClearPipeline="true"/>
+  <service name="WarrantyUpdateWES_Services.common.services:startMainWarrantyUpdateWES" captureInput="true" captureOutput="true"/>
   <service name="HRMasterData_CADIS_Services.HRMasterDataCADISServicesMgmt.globalServices:_010a_transformCADISToCanonical" captureInput="true" captureOutput="true" captureOnError="true" filenameExtension="Extension.services:getFileNameExtension" endsWithClearPipeline="false"/>
+  <service name="pub.flow:tracePipeline" captureExtension="com.wm.ps.serviceMock.ServiceInvokeCaptureExtensionSubclass" extensionBeforeCapture="true"/>
+  <service name="test.flow:nextService" filenameExtension="test.flow:suffixSvc" endsWithClearPipeline="true"/>
 </pipelineCaptureConfig>

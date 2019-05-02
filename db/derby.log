@@ -1,0 +1,68 @@
+----------------------------------------------------------------
+Fri Feb 02 13:06:32 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0161-5571-d7ab-000052320d10 
+on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\embedded  with class loader java.net.URLClassLoader@632ee992 
+Loaded from file:C:/SoftwareAG912/common/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\SoftwareAG912\IntegrationServer\instances\default
+derby.system.home=C:\SoftwareAG912\IntegrationServer\instances\default\db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 02 13:06:36 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance 888c4022-0161-5571-d7ab-000052320d10 
+on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\AUDITINGSC  with class loader java.net.URLClassLoader@632ee992 
+Loaded from file:C:/SoftwareAG912/common/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\SoftwareAG912\IntegrationServer\instances\default
+derby.system.home=C:\SoftwareAG912\IntegrationServer\instances\default\db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 02 13:06:43 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance 81260031-0161-5571-d7ab-000052320d10 
+on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\LWQ_DB_BROKER_CSQ  with class loader java.net.URLClassLoader@632ee992 
+Loaded from file:C:/SoftwareAG912/common/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\SoftwareAG912\IntegrationServer\instances\default
+derby.system.home=C:\SoftwareAG912\IntegrationServer\instances\default\db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 02 13:06:48 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance 424a8045-0161-5571-d7ab-000052320d10 
+on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\LWQ_DB_MESSAGING_CSQ  with class loader java.net.URLClassLoader@632ee992 
+Loaded from file:C:/SoftwareAG912/common/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\SoftwareAG912\IntegrationServer\instances\default
+derby.system.home=C:\SoftwareAG912\IntegrationServer\instances\default\db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 02 13:06:49 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance 437c8055-0161-5571-d7ab-000052320d10 
+on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\LWQ_DB  with class loader java.net.URLClassLoader@632ee992 
+Loaded from file:C:/SoftwareAG912/common/lib/ext/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_101-b13
+user.dir=C:\SoftwareAG912\IntegrationServer\instances\default
+derby.system.home=C:\SoftwareAG912\IntegrationServer\instances\default\db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 02 23:49:00 IST 2018: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Mar 02 23:49:00 IST 2018:
+Shutting down instance 437c8055-0161-5571-d7ab-000052320d10 on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\LWQ_DB with class loader java.net.URLClassLoader@632ee992 
+----------------------------------------------------------------
+Fri Mar 02 23:49:00 IST 2018:
+Shutting down instance 424a8045-0161-5571-d7ab-000052320d10 on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\LWQ_DB_MESSAGING_CSQ with class loader java.net.URLClassLoader@632ee992 
+----------------------------------------------------------------
+Fri Mar 02 23:49:00 IST 2018:
+Shutting down instance 81260031-0161-5571-d7ab-000052320d10 on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\LWQ_DB_BROKER_CSQ with class loader java.net.URLClassLoader@632ee992 
+----------------------------------------------------------------
+Fri Mar 02 23:49:00 IST 2018:
+Shutting down instance 888c4022-0161-5571-d7ab-000052320d10 on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\AUDITINGSC with class loader java.net.URLClassLoader@632ee992 
+----------------------------------------------------------------
+Fri Mar 02 23:49:01 IST 2018:
+Shutting down instance a816c00e-0161-5571-d7ab-000052320d10 on database directory C:\SoftwareAG912\IntegrationServer\instances\default\db\embedded with class loader java.net.URLClassLoader@632ee992 
+----------------------------------------------------------------
